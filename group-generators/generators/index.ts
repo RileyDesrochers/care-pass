@@ -874,7 +874,8 @@ import zksyncGithubStargazers from "./zksync-github-stargazers";
 import zl019 from "./zl019";
 import zohalKYC from "./zohal-KYC";
 import zykloonEpochDepositors from "./zykloon-epoch-depositors";
-
+import tutorialFirstSismoPostCollectors from "./tutorial-first-sismo-post-collectors"
+//tutorial-first-sismo-post-collectors
 
 
 export const groupGenerators: GroupGeneratorsLibrary = {
@@ -1752,4 +1753,5 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "zl019": zl019,
   "zohal-KYC": zohalKYC,
   "zykloon-epoch-depositors": zykloonEpochDepositors,
+  "tutorial-first-sismo-post-collectors": tutorialFirstSismoPostCollectors,
 };

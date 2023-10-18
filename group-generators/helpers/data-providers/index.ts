@@ -56,6 +56,8 @@ import { UnlockSubgraphProvider } from "./unlock";
 import unlockProviderInterfaceSchema from "./unlock/interface-schema.json";
 import { WiwBadgeProvider } from "./wiw-badge";
 import wiwBadgeInterfaceSchema from "./wiw-badge/interface-schema.json";
+import { CarePassProvider } from "./care-pass";
+import carePassSchema from "./care-pass/interface-schema.json";
 import {
   DataProviderInterface,
   DataProviders,
@@ -101,6 +103,7 @@ export const dataProviders = {
   TransposeProvider,
   UnlockSubgraphProvider,
   WiwBadgeProvider,
+  CarePassProvider,
 };
 
 export const dataProvidersInterfacesSchemas: DataProviderInterface[] = [
@@ -125,6 +128,7 @@ export const dataProvidersInterfacesSchemas: DataProviderInterface[] = [
   tokenProviderInterfaceSchema,
   unlockProviderInterfaceSchema,
   wiwBadgeInterfaceSchema,
+  carePassSchema,
 ];
 
 export const getDataProvidersInterfacesSchemas = (): DataProviderInterface[] => {
